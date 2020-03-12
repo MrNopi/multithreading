@@ -5,10 +5,10 @@ public class Main {
     private StringBuffer sb = new StringBuffer();
     public static void main(String[] args) {
         Main main = new Main();
-        main.asd();
+        main.runThreads();
     }
 
-    public void asd() {
+    public void runThreads() {
         Thread thread = new ExtendsThread();
         Runnable runnable = new ImplementsRunnable();
         while(x != 100) {
